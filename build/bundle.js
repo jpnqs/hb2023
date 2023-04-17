@@ -4884,7 +4884,7 @@ var app = (function () {
     			this.sourcePosition = { x: gameWidth / 2, y: gameHeight - 50 };
 
     			this.resetToSourcePos();
-    			this.sprite = new Sprite('/images/ball.png', 40, 40);
+    			this.sprite = new Sprite('/hb2023/images/ball.png', 40, 40);
 
     			// create hitbox
     			this.hitBox = new HitBox(this.x, this.y, this.width, this.height);
@@ -5033,8 +5033,8 @@ var app = (function () {
     		constructor(x, y) {
     			this.opacity = 1;
     			this.cosCount = 0;
-    			this.sprite = new Sprite('/images/cup.png', 80, 105.521472393);
-    			this.spriteBlue = new Sprite('/images/cup_blue.png', 80, 105.521472393);
+    			this.sprite = new Sprite('/hb2023/images/cup.png', 80, 105.521472393);
+    			this.spriteBlue = new Sprite('/hb2023/images/cup_blue.png', 80, 105.521472393);
     			this.x = x;
     			this.y = y;
     			this.hitBox = new HitBox(x - 35, y - 45, 70, 40);
